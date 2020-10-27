@@ -101,6 +101,8 @@ public class LinkCheckerTest {
 	}
 
 	// Class methods
+	
+	//Sleep method 
 	private void sleep(long m) {
 		try {
 			Thread.sleep(m);
@@ -110,6 +112,8 @@ public class LinkCheckerTest {
 		}
 	}
 
+	
+	//Page validation
 	private void correctPage(WebElement successMessage, String expectedMessage) {
 		String actualMessage = successMessage.getText();
 		Assert.assertTrue("Actual Message does not contain expected message", actualMessage.contains(expectedMessage));

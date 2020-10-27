@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="26197" started-at="2020-10-20T13:07:57 EDT" finished-at="2020-10-20T13:08:23 EDT">
+  <suite name="Default suite" duration-ms="30075" started-at="2020-10-27T16:22:45 EDT" finished-at="2020-10-27T16:23:15 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="26197" started-at="2020-10-20T13:07:57 EDT" finished-at="2020-10-20T13:08:23 EDT">
-      <class name="com.herokuapp.theinternet.LinkCheckerTest">
-        <test-method status="PASS" signature="checkLinks()[pri:0, instance:com.herokuapp.theinternet.LinkCheckerTest@27c86f2d]" name="checkLinks" duration-ms="26150" started-at="2020-10-20T13:07:57 EDT" finished-at="2020-10-20T13:08:23 EDT">
+    <test name="Default test" duration-ms="30075" started-at="2020-10-27T16:22:45 EDT" finished-at="2020-10-27T16:23:15 EDT">
+      <class name="com.herokuapp.theinternet.NegativeTests">
+        <test-method status="PASS" signature="incorrectUsernameTest()[pri:0, instance:com.herokuapp.theinternet.NegativeTests@10db82ae]" name="incorrectUsernameTest" duration-ms="30001" started-at="2020-10-27T16:22:45 EDT" finished-at="2020-10-27T16:23:15 EDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkLinks -->
-      </class> <!-- com.herokuapp.theinternet.LinkCheckerTest -->
+        </test-method> <!-- incorrectUsernameTest -->
+      </class> <!-- com.herokuapp.theinternet.NegativeTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
