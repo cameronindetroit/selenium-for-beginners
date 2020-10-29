@@ -1,17 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30075" started-at="2020-10-27T16:22:45 EDT" finished-at="2020-10-27T16:23:15 EDT">
+  <suite name="AllTests" duration-ms="65851" started-at="2020-10-29T10:47:20 EDT" finished-at="2020-10-29T10:48:26 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="30075" started-at="2020-10-27T16:22:45 EDT" finished-at="2020-10-27T16:23:15 EDT">
+    <test name="PositiveTests" duration-ms="21615" started-at="2020-10-29T10:47:20 EDT" finished-at="2020-10-29T10:47:41 EDT">
+      <class name="com.herokuapp.theinternet.PositiveTests">
+        <test-method status="PASS" signature="logintest()[pri:0, instance:com.herokuapp.theinternet.PositiveTests@63e2203c]" name="logintest" duration-ms="21573" started-at="2020-10-29T10:47:20 EDT" finished-at="2020-10-29T10:47:41 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logintest -->
+      </class> <!-- com.herokuapp.theinternet.PositiveTests -->
+    </test> <!-- PositiveTests -->
+    <test name="NegativeTests" duration-ms="19462" started-at="2020-10-29T10:47:41 EDT" finished-at="2020-10-29T10:48:01 EDT">
       <class name="com.herokuapp.theinternet.NegativeTests">
-        <test-method status="PASS" signature="incorrectUsernameTest()[pri:0, instance:com.herokuapp.theinternet.NegativeTests@10db82ae]" name="incorrectUsernameTest" duration-ms="30001" started-at="2020-10-27T16:22:45 EDT" finished-at="2020-10-27T16:23:15 EDT">
+        <test-method status="PASS" signature="incorrectUsernameTest()[pri:0, instance:com.herokuapp.theinternet.NegativeTests@1d29cf23]" name="incorrectUsernameTest" duration-ms="19455" started-at="2020-10-29T10:47:41 EDT" finished-at="2020-10-29T10:48:01 EDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- incorrectUsernameTest -->
       </class> <!-- com.herokuapp.theinternet.NegativeTests -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- NegativeTests -->
+    <test name="LinkCheckerTest" duration-ms="24717" started-at="2020-10-29T10:48:01 EDT" finished-at="2020-10-29T10:48:26 EDT">
+      <class name="com.herokuapp.theinternet.LinkCheckerTest">
+        <test-method status="PASS" signature="checkLinks()[pri:0, instance:com.herokuapp.theinternet.LinkCheckerTest@17579e0f]" name="checkLinks" duration-ms="24715" started-at="2020-10-29T10:48:01 EDT" finished-at="2020-10-29T10:48:26 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkLinks -->
+      </class> <!-- com.herokuapp.theinternet.LinkCheckerTest -->
+    </test> <!-- LinkCheckerTest -->
+  </suite> <!-- AllTests -->
 </testng-results>

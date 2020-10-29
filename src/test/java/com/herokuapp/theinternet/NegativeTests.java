@@ -56,8 +56,8 @@ public class NegativeTests {
 
 		Assert.assertTrue("Actual error message does not contain expected",
 				actualErrorMessage.contains(expectedErrorMessage));
-		
-		//Close Broser
+
+		// Close Broser
 		driver.quit();
 
 	}
